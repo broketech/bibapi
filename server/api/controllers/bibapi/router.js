@@ -3,4 +3,4 @@ import controller from './controller';
 
 export default express
   .Router()
-  .get('/:nameFragment', controller.namePredict);
+  .get('/predict/:nameFragment', controller.namePredict);
