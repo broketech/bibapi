@@ -24,10 +24,7 @@ class bibapiDatabase {
       })
     })
     return Promise.resolve(welp);
-
-
   }
-
 }
 
 export default new bibapiDatabase();
